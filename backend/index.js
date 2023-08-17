@@ -3,7 +3,7 @@ const path = require("path");
 
 const port = process.env.PORT || 3000;
 
-const app = express();
+const app = express(); 
 
 app.use(express.static("static"));
 app.use(express.json());
